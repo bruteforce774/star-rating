@@ -1,11 +1,7 @@
 <script setup>
-import Star from './components/Star.vue'
-
-function handleClick() {
-  console.log('Star was clicked!')
-}
+  import Rating from './components/Rating.vue'
 </script>
 
 <template>
-  <Star @clicked="handleClick" />
+  <Rating />
 </template>
