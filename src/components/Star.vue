@@ -1,6 +1,7 @@
 <script setup>
 defineProps({
-  highlighted: Boolean
+  highlighted: Boolean,
+  default: false
 })
 const emit = defineEmits(['clicked'])
 </script>
